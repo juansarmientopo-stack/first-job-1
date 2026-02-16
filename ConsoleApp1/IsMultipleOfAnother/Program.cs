@@ -5,8 +5,8 @@ var options = new List<string> { "s", "n" };
 
 do
 {
-    var a = ConsoleExtencion.GetInt("Ingrese primer número : ");
-    var b = ConsoleExtencion.GetInt("Ingrese segundo número: ");
+    var a = ConsoleExtension.GetInt("Ingrese primer número : ");
+    var b = ConsoleExtension.GetInt("Ingrese segundo número: ");
     if (b % a == 0)
     {
         Console.WriteLine($"{a} es múltiplo {b}");
@@ -18,7 +18,7 @@ do
 
     do
     {
-        answer = ConsoleExtencion.GetValidOptions("¿Deseas continuar [S]í, [N]o?: ", options);
+        answer = ConsoleExtension.GetValidOptions("¿Deseas continuar [S]í, [N]o?: ", options);
     } while (!options.Any(x => x.Equals(answer, StringComparison.CurrentCultureIgnoreCase)));
 
 } while (answer!.Equals("s", StringComparison.CurrentCultureIgnoreCase));

@@ -6,8 +6,8 @@ var options = new List<string> { "s", "n" };
 do
 {
     Console.WriteLine("Ingrese 3 números diferentes...");
-    var a = ConsoleExtencion.GetInt("Ingrese primer número : ");
-    var b = ConsoleExtencion.GetInt("Ingrese segundo número: ");
+    var a = ConsoleExtension.GetInt("Ingrese primer número : ");
+    var b = ConsoleExtension.GetInt("Ingrese segundo número: ");
     if (a == b)
     {
         Console.WriteLine("Deben ser diferentes, vuelva a empezar...");
@@ -57,7 +57,7 @@ do
 
     do
     {
-        answer = ConsoleExtencion.GetValidOptions("¿Deseas continuar [S]í, [N]o?: ", options);
+        answer = ConsoleExtension.GetValidOptions("¿Deseas continuar [S]í, [N]o?: ", options);
     } while (!options.Any(x => x.Equals(answer, StringComparison.CurrentCultureIgnoreCase)));
 
 } while (answer!.Equals("s", StringComparison.CurrentCultureIgnoreCase));

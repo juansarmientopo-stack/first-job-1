@@ -7,9 +7,9 @@ do
 {
     Console.WriteLine("Ingrese 3 números diferentes");
 
-    var a = ConsoleExtencion.GetInt("Ingrese primer número : ");
-    var b = ConsoleExtencion.GetInt("Ingrese segundo número: ");
-    var c = ConsoleExtencion.GetInt("Ingrese tercer número : ");
+    var a = ConsoleExtension.GetInt("Ingrese primer número : ");
+    var b = ConsoleExtension.GetInt("Ingrese segundo número: ");
+    var c = ConsoleExtension.GetInt("Ingrese tercer número : ");
 
     if (a > b && a > c)
     {
@@ -26,7 +26,7 @@ do
 
     do
     {
-        answer = ConsoleExtencion.GetValidOptions("¿Deseas continuar [S]í, [N]o?: ", options);
+        answer = ConsoleExtension.GetValidOptions("¿Deseas continuar [S]í, [N]o?: ", options);
     }
     while (!options.Any(x => x.Equals(answer, StringComparison.CurrentCultureIgnoreCase)));
 
