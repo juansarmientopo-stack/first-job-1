@@ -17,7 +17,30 @@
   <Folder Name="/06/">
     <Project Path="SimplePayroll/SimplePayroll.csproj" Id="db7f2155-60d9-4b95-828d-df6c496567e0" />
   </Folder>
-  <Folder Name="/07/" />
+  <Folder Name="/07/">
+    <Project Path="Discounts/Discounts.csproj" Id="2c27eaf6-48ab-4ad4-ad04-f1752240837f" />
+  </Folder>
+  <Folder Name="/08/">
+    <Project Path="RegistrationValue/RegistrationValue.csproj" Id="dd5fb938-b55c-48f2-95e7-a0827d7b0d3e" />
+  </Folder>
+  <Folder Name="/09/">
+    <Project Path="Shipping/Shipping.csproj" Id="b0c0f51a-9ada-4a51-b791-06f5efe64124" />
+  </Folder>
+  <Folder Name="/10/">
+    <Project Path="SucesoStore/SucesoStore.csproj" Id="0096303b-e704-4684-9475-d766a07389f9" />
+  </Folder>
+  <Folder Name="/11/">
+    <Project Path="TranportationCompany/TranportationCompany.csproj" Id="f2b30d9e-2c34-4abb-a2a4-aac305f12c01" />
+  </Folder>
+  <Folder Name="/12/">
+    <Project Path="SumAndAverage/SumAndAverage.csproj" Id="d6bbc3f8-7b18-4009-b76d-9b870cdd41e5" />
+  </Folder>
+  <Folder Name="/13/">
+    <Project Path="Factorial/Factorial.csproj" Id="edd09155-f62b-4496-b9e7-0591936ff6ab" />
+  </Folder>
+  <Folder Name="/14/">
+    <Project Path="Taylor/Taylor.csproj" Id="47e3c27c-6b26-4a38-a9d5-c7cf54301d88" />
+  </Folder>
   <Folder Name="/Shared/">
     <Project Path="Shared/Shared.csproj" Id="dd858962-83cb-44bb-84d9-2fe322bff590" />
   </Folder>
